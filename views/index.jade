@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	h1= title
+	a(href="/list") LIST
+	ul
+		each user, index in users
+			- user = user.getInformation()
+			li
+				a(href="/user/#{user.id}")= user.name
+

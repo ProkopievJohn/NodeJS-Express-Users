@@ -1,0 +1,11 @@
+{
+  "name": "user",
+  "version": "0.0.0",
+  "description": "A module for user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Prokopiev <ProkopievJohn@gmail.com>",
+  "license": "ISC"
+}
